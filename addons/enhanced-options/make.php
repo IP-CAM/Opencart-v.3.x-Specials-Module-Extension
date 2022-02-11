@@ -200,7 +200,7 @@ function get_file_list($path) {
 
 	if (is_dir($path)) {
 		$iterator = new RecursiveIteratorIterator(
-			new RecursiveDirectoryIterator($path),
+			new RecursiveDirectoryIterator($path, RecursiveDirectoryIterator::SKIP_DOTS),
 			RecursiveIteratorIterator::SELF_FIRST
 		);
 
