@@ -1,0 +1,8 @@
+# Ignored
+inc/
+pic/
+src/
+zip/
+doc/*.bb
+config.php
+hideg.pwd
