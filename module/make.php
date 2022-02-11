@@ -58,6 +58,25 @@ switch ($act) {
 			$subst = get_defined_constants(true)['user'];
 			$subst['XID'] = $modfn;
 
+			$parts = explode('--' , $modfn);
+
+			if (count($parts) === 2) {
+				$mod0 = explode('-', $parts[0]);
+				$mod1 = explode('-', $parts[1]);
+
+				foreach ($mod0 as &$word) {
+					$word = ucfirst($word);
+				}
+				foreach ($mod1 as &$word) {
+					$word = ucfirst($word);
+				}
+
+				$mod0 = implode(' ', $mod0);
+				$mod1 = implode(' ', $mod1);
+
+				$subst['MOD'] = $mod0 . ' | ' . $mod1;
+			}
+
 			make();
 		} else {
 			error('file "config.php" is missing');
