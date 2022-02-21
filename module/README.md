@@ -1,7 +1,7 @@
 # Enhanced Specials
 
 ## Description
-"Enhanced Specials" is an OpenCart extension that allows to set special percentage discounts for all products that belong to certain categories or manufacturers.
+Enhanced Specials is an OpenCart extension that allows to set special percentage discounts for all products that belong to certain categories or manufacturers.
 Compatible with OC 2.2.x-3.x.
 
 ## Features

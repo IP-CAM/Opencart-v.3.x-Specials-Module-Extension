@@ -31,7 +31,21 @@ return $config
 		// Ensure there is no code on the same line as the PHP open tag and it is followed by a blank line.
 		'blank_line_after_opening_tag' => true,
 		// An empty line feed must precede any configured statement.
-		'blank_line_before_statement' => array('statements' => array('break', 'case', 'continue', 'declare', 'default', 'exit', 'goto', 'include', 'include_once', 'require', 'require_once', 'return', 'switch', 'throw', 'try')),
+		'blank_line_before_statement' => array(
+			'statements' => array(
+				'break',
+				'case',
+				'continue',
+				'declare',
+				'default',
+				'exit',
+				'goto',
+				'return',
+				'switch',
+				'throw',
+				'try',
+			),
+		),
 		// The body of each structure MUST be enclosed by braces. Braces should be properly placed. Body of braces should be properly indented.
 		'braces' => array(
 			'allow_single_line_anonymous_class_with_empty_body' => true,
