@@ -1,15 +1,15 @@
 # Enhanced Specials
 
 ## Description
-Enhanced Specials is an OpenCart extension that allows to set special percentage discounts for all products that belong to certain categories or manufacturers.
+**Extended Offers** is an OpenCart extension that allows to apply percentage special offers to all products those belong to a specified category or manufacturer.
 Compatible with OC 2.2.x-3.x.
 
 ## Features
-* Special offers for whole categories and their sub-categories.
-* Special offers for products of specific manufacturers.
-* Different offers for different customer groups.
-* Display percentage special offers for each customer group in the lists of categories and manufacturers.
-* Quick access to a related category or manufacturer form by clicking on a special price in the product list in the admin.
+* Special offers for all products linked to a category and its sub-categories.
+* Special offers for all products of a manufacturer.
+* Separate offer for each customer group.
+* Displaying active specials in the lists of categories and manufacturers.
+* Quick access from the product list or edit form to the form of a category or manufacturer related to a special offer.
 * Does not modify system files (OCMOD).
 
 ## Live demo
@@ -20,5 +20,6 @@ Compatible with OC 2.2.x-3.x.
 * [Opencart Marketplace](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=43136)
 
 ## Related extensions
-* [Live Product](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=36005) - live price update based on selected product options and quantity.
-* [Enhanced Options](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=40391) - allows to apply product special offers and discounts to its options.
+* [Live Product](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=36005) - update product prices in real time based on selected options and quantities.
+* [Enhanced Options](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=40391) - allows to apply special offers and discounts to product options and set one-time charged options.
+* [Price Range](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=38331) - displays price range of products based on the products option prices.
