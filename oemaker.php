@@ -1,6 +1,6 @@
 <?php
 
-// Opencart Extension Maker (OEM) v1.0.0
+// Opencart Extension Maker (OEM) v0.2.0
 
 require_once '_oem/conf.php';
 
@@ -61,6 +61,8 @@ if (isset($clo[MAKEZIP]) && !is_false($clo[MAKEZIP])) {
 		} else {
 			error('Can not create dir: ' . $zipdir);
 		}
+	} else {
+		error('There is no directory corresponding to number ' . $clo[MAKEZIP]);
 	}
 } elseif (isset($clo[MAKEFCL]) || isset($clo[EXTRFCL]) || isset($clo[LISTFCL])) {
 	$fcl_file = strtopath(FCLDIR) . $basename . '.fcl';

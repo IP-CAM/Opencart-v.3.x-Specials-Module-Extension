@@ -33,7 +33,7 @@ function get_clo() {
 }
 
 function get_wd($num) {
-	if ($num === 0) {
+	if ($num === 0 && is_dir(MDIR)) {
 		return MDIR;
 	}
 
@@ -272,7 +272,13 @@ function delete_content($path) {
 
 function get_enumerated() {
 	$enumerated = array();
-	$enumerated[] = strtolower(basename(getcwd()));
+
+	if (is_dir(MDIR)) {
+		$enumerated[] = strtolower(basename(getcwd()));
+	} else {
+		$enumerated[] = false;
+		unset($enumerated[0]);
+	}
 
 	if (is_dir(ADIR)) {
 		$addons = get_dir_list(ADIR);
@@ -281,7 +287,6 @@ function get_enumerated() {
 			$enumerated[] = strtopath(ADIR) . $name;
 		}
 	}
-
 
 	return $enumerated;
 }
