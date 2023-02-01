@@ -1,7 +1,7 @@
 # Enhanced Specials
 
 ## Description
-**Enhanced Specials** is an OpenCart extension that allows to apply percentage special offers to all products those belong to a specified category or manufacturer.
+**Enhanced Specials** is an OpenCart extension that allows to cascade percentage special offers for all products of a specified category (including subcategories) or manufacturer.  
 Compatible with OC 2.2.x-3.x.
 
 ## Features
@@ -13,13 +13,13 @@ Compatible with OC 2.2.x-3.x.
 * Does not modify system files (OCMOD).
 
 ## Live demo
-* [Admin](http://ocmod.freevar.com/oc3020/a/admin/index.php?route=extension/module/enhanced_specials)
-* [Front](http://ocmod.freevar.com/oc3020/a)
+[Admin](http://ocmod.freevar.com/oc3020/a/admin/index.php?route=extension/module/enhanced_specials)  
+[Front](http://ocmod.freevar.com/oc3020/a)  
 
 ## Download
-* [Opencart Marketplace](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=43136)
+[Opencart Marketplace](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=43136)
 
 ## Related extensions
-* [Live Product](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=36005) - update product prices in real time based on selected options and quantities.
-* [Enhanced Options](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=40391) - allows to apply special offers and discounts to product options and set one-time charged options.
-* [Price Range](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=38331) - displays price range of products based on the products option prices.
+[Live Product](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=36005) - update product prices in real time based on selected options and quantities.  
+[Enhanced Options](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=40391) - allows to apply special offers and discounts to product options and set one-time charged options.  
+[Price Range](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=38331) - displays price range of products based on the products option prices.  
