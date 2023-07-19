@@ -9,6 +9,7 @@ Compatible with OC 2.2.x-3.x.
 * Special offers on all products from the specified manufacturer.
 * Convenient navigation and display of active product specials.
 * Prioritization system.
+* Multistore.
 * Does not modify system files (OCMOD).
 
 ## Live demo
