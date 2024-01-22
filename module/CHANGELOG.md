@@ -1,5 +1,15 @@
 # Change log
 
+## [1.2.0] - 2024.01.17
+### Added
+- Show products with enhanced specials on the native special page.
+### Fixed
+- Special price table in the product edit form.
+### Changed
+- Events handling in admin.
+### Removed
+- OC 2.x support.
+
 ## [1.1.3] - 2023.07.21
 ### Fixed
 - Event uninstaller.
