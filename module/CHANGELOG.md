@@ -1,5 +1,13 @@
 # Change log
 
+## [2.0.0] - 2024.01.29
+## Changed
+- Internal filter to get data about product enhanced specials (from PHP to SQL).
+## Removed
+- Category `Inherit` option.
+## Internals
+- Code improvements.
+
 ## [1.2.0] - 2024.01.17
 ### Added
 - Show products with enhanced specials on the native special page.
