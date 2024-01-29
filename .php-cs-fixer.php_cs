@@ -28,7 +28,7 @@ return $config
 		'binary_operator_spaces'                        => [
 			'default'   => 'single_space',
 			'operators' => [
-				'=>' => 'align_single_space_minimal_by_scope',
+				'=>' => 'at_least_single_space',
 				'='  => 'at_least_single_space',
 			],
 		],
@@ -106,7 +106,7 @@ return $config
 		'multiline_comment_opening_closing'             => true,
 		'multiline_whitespace_before_semicolons'        => ['strategy' => 'new_line_for_chained_calls'],
 		'native_function_casing'                        => true,
-		'native_function_type_declaration_casing'       => true,
+		'native_type_declaration_casing'                => true,
 		'new_with_braces'                               => true,
 		'no_alias_language_construct_call'              => true,
 		'no_alternative_syntax'                         => true,
