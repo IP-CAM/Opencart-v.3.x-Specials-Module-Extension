@@ -1,18 +1,2 @@
-Issue when product has both discount and especial discount takes priority!
-
-Quick fix:
-
-find:
-
-if ($product_discount_query->num_rows) {
-
-replace to
-
-				if (   $this->config->get('module_enhanced_specials_status')
-					&& isset($mconfig['stores'])
-					&& in_array($this->config->get('config_store_id'), $mconfig['stores'])
-					&& (empty($product_special_query->row['price']) || $mconfig['priority'])
-				) {
-					$especial = $this->getEnhancedSpecial($cart['product_id']);
-				}
-				if ($product_discount_query->num_rows && empty($especial)) {
+1. Priority system requires additional tests.
+2. Journal filters compatibility.
