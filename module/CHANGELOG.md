@@ -1,5 +1,9 @@
 # Change log
 
+## [2.0.1] - 2024.02.12
+## Fixed
+- Admin language loading.
+
 ## [2.0.0] - 2024.01.29
 ## Changed
 - Internal filter to get data about product enhanced specials (from PHP to SQL).
