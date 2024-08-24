@@ -1,16 +1,15 @@
 # Enhanced Specials
 
 ## Description
-**Enhanced Specials** is an OpenCart extension allows to provide percentage discounts on all products of a category or manufacturer.  
-Compatible with OC 3.x.
+**Enhanced Specials** is an OpenCart extension that allows to create percentage specials for all products belonging to a specific category or manufacturer.  
+Compatible with OC 3.x versions.
 
 ## Features
-* Percentage special offer on:
-    - all products of a category (and optionally to its subcategories).
-    - on all manufacturers products.
-* Different discounts for different customer groups.
-* Ability to set priority relative to native product specials.
-* Show active discounts in the lists of products and categories and in the product edit form.
+* Percentage specials for all products belonging to a specific category or manufacturer.
+* Adjustable priority of category or manufacturer specials over available product specials.
+* Current discounts are displayed both in the list of categories and manufacturers, and in the product list.
+* Simple discount calculator in the product edit form.
+* Journal 3 compatibility!
 * Does not modify system files (OCMOD).
 
 ## Live demo
