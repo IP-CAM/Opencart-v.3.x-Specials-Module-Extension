@@ -1,5 +1,9 @@
 # Change log
 
+## [2.0.2] - 2024.08.24
+## Internal
+- Code improvements.
+
 ## [2.0.1] - 2024.02.12
 ## Fixed
 - Admin language loading.
