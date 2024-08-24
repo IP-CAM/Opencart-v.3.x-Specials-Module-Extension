@@ -1,2 +1,0 @@
-1. Priority system requires additional tests.
-2. Journal filters compatibility.
